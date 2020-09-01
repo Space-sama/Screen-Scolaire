@@ -1,0 +1,17 @@
+div.jumbotron {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 97px;
+    width: 750px;
+    padding: 10px;
+    margin: 10px;
+  }
+  body, html {
+    height: 100%;
+  }
+  
+  .bg {    
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

@@ -1,0 +1,12 @@
+.login-form pre{
+   
+    position: absolute;
+    top: 600px;
+    animation: fadein 1s;
+    color:red;
+    font-size: 23px;
+    /* left:88px; */
+    margin-left: 39px;
+    margin-right: 20px;
+   
+  }

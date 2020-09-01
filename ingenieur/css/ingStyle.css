@@ -1,0 +1,17 @@
+div.jumbotron {
+    background-color: #3F444E;
+    border-radius: 85px;
+    padding: 6px;
+    margin: 6px;
+    width: 500px;
+    }
+    
+    body{background: #ffffff;}
+    #head{
+      color: white;
+    }
+    #head:hover{
+        color: grey;
+    }
+
+  

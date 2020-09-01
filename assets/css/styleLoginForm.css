@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'OpenSans-italic';
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  background-image:linear-gradient(180deg,rgb(30, 33, 39) 10%,black 100%);
+}
+
+.login-form{
+  width: 360px;
+  background: rgba(54, 56, 60, 1);
+  height: 650px;
+  padding: 80px 40px;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 70px;
+  box-shadow: 1px 1px 90px 2px #000;
+}
+
+.login-form h1{
+  text-align: center;
+  margin-bottom: 60px;
+  color: white;
+}
+
+.txtb{
+  border-bottom: 2px solid #adadad;
+  position: relative;
+  margin: 30px 0;
+ 
+}
+
+.txtb input{
+  font-size: 15px;
+  color:white;
+  border: none;
+  width: 100%;
+  outline: none;
+  background: none;
+  padding: 0 5px;
+  height: 40px;
+}
+
+.txtb span::before{
+  content: attr(data-placeholder);
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  z-index: -1;
+  transition: .5s;
+}
+
+.txtb span::after{
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: rgb(255,255,255);
+  transition: .5s;
+}
+
+.focus + span::before{
+  top: -5px;
+}
+.focus + span::after{
+  width: 100%;
+}
+
+.logbtn{
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: none;
+  background: rgb(196, 30, 36);
+  background-size: 200%;
+  color: white;
+  font-size:20px;
+  outline: none;
+  cursor: pointer;
+  transition: .5s;
+  border-radius: 30px;
+}
+
+.logbtn:hover{
+  background-position: right;
+  opacity:0.7;
+}
+
+.bottom-text{
+  margin-top: 60px;
+  text-align: center;
+  font-size: 13px;
+}
+
+
+
+
+@media screen and (max-width: 370px) {
+  .login-form{
+    
+    width: 320px;
+    height: 610px; 
+  }
+  .myimg{
+    width: 240px;
+    height: 90px; 
+  }
+  .logbtn{
+    width: 100%;
+    height: 40px;
+    
+  }
+}
+
+@keyframes fadein {
+  0% { opacity: 0; transition: 0.8s;}
+  15% { opacity: 0.5; transition: 0.8s;}
+  25% { opacity: 0; transition: 0.8s;}
+  50%  { opacity: 0.5;transition: 0.8s; }
+  75%  { opacity: 0.2;transition: 0.8s; }
+  100%  { opacity: 1; transition: 0.8s;}
+}
+
+.login-form em{
+   
+  position: absolute;
+  top: 560px;
+  animation: fadein 1s;
+  color:red;
+  font-size: 23px;
+  /* left:88px; */
+  margin-left: 39px;
+  margin-right: 20px;
+ 
+}

@@ -1,0 +1,276 @@
+
+
+#bf{
+color:dark; 
+font-size:77px; 
+font-family:Geneva;
+}
+
+#vp{
+
+    font-family: Bradley Hand ITC;
+    color:#555555;
+    font-size:70px;
+}
+
+div.jumbotron {
+    background-color: #292727;
+    padding: 10px;
+   
+    margin: 10px;
+    width: 530px;
+    height: 100px;
+    
+    }
+  
+    #head{
+      color: #fd9b5a;
+      font-family: fangsong; 
+      font-size: 34px;
+    }
+
+    #head2{
+        font-family: fangsong; 
+        font-size: 22px; color: white;
+    }
+
+    #head:hover{
+        color: white;
+    }
+
+    #title{
+        color:#252524;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        padding: 10px;
+        margin: 9px;
+        
+    }
+    #titlee{
+        color:#252524;
+         font-size: 30px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 10px;
+         margin: 9px;
+        
+    }
+
+    #ct{
+        color:rgb(70, 66, 66); background-color:#fad2bb;
+    }
+    #footerCt{
+        background-color:#fad2bb;
+    }
+    #aller{
+        color:#c55900;
+        text-transform: uppercase;
+        
+    }
+    #aller:hover{
+        color:#f3f3f3;
+    }
+        /*Titre ISGA-RABAT*/
+    #isga{
+       color:dark; font-size:70px; font-family:Geneva;
+       margin-bottom: 30px;
+       margin-top: 20px;
+    }
+    #triangle{
+        font-size: 50px;
+        padding: 4px;
+    }
+        /*END Titre ISGA-RABAT*/
+    #cardText{
+        background-color:#ffcdb0;
+    }
+
+    #cardHeader{
+        background-color:#ffcdb0;
+    }
+
+    #container{
+        background-color:#ffcdb0;
+    }
+
+    
+
+       /*Date publication & expiration*/
+    
+    #pub{
+        color: tomato;
+        font-size: 20px;
+    }
+
+    #exp{
+        color: tomato;
+        font-size: 20px;
+    }
+
+    #exp:hover{
+        color: rgb(255, 255, 255);
+    }
+
+    #pub:hover{
+        color: rgb(255, 255, 255);
+    }
+    /*END Date publication & expiration*/
+
+
+
+    /*########## Today Date ########*/
+    #dateJour{
+        color:white;font-size: 20px; font-family:Andalus;
+    }
+
+    /*MENU*/
+    #allmenu{
+        background-color:#979796;
+    }
+
+    #titreMenu{
+        color:whitesmoke;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #titreMenu:hover{
+        color:#ffcdb0;
+        
+    }
+    #voirAussi{
+        color:white;
+        font-size: 25px;
+        font-family:Andalus;
+    }
+
+    #emploi{
+        color:whitesmoke;
+        font-size: 25px;
+        font-family:Andalus;
+        
+    }
+    #emploi:hover{
+        color:rgb(146, 142, 142);
+        background-color: rgb(209, 204, 198);
+        
+    }
+/**/
+#cardBody{
+    background-color:#e0dedd;
+}
+#echoInfo{
+    color: #331501;
+    font-size: larger;
+}
+#echoInfo:hover{
+    color: rgb(3, 8, 3);
+}
+    /*Pagination*/
+     
+    #pagi_previous{
+        background-color:#fd9b5a;
+    }
+    #pagi_btn{
+        background-color:#fd9b5a;
+    }
+    #pagi_next{
+        background-color:#fd9b5a;
+    }   
+
+   #con{
+       margin: 30px 60px;
+   }
+/* footer */
+   #foot{
+    padding-top: 3px;
+    padding-bottom: 10px;
+    margin-bottom: 2px;
+    padding-left: 30px;
+    
+   }
+   #h4{
+    font-size: 20px; 
+    color: #f7c9aa; 
+    text-align: "center";
+   }
+
+   #rs{
+       font-size: 20px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       text-transform: none;
+       margin-left: 22px;
+
+   }
+
+   #fb{
+       color: rgb(204, 204, 218);
+       
+   }
+   #fb:hover{
+    color: rgb(7, 7, 204);
+    
+}
+
+#yt{
+    color: rgb(204, 204, 218);
+    
+}
+#yt:hover{
+ color: rgb(221, 26, 0);
+ 
+}
+
+#tw{
+    color: rgb(204, 204, 218);
+    
+}
+#tw:hover{
+    color: rgb(10, 60, 224);
+    
+}
+
+#ins{
+    color: rgb(204, 204, 218);
+    
+}
+#ins:hover{
+ color: rgb(255, 94, 0);
+ 
+}
+#link{
+    color: rgb(204, 204, 218);
+    
+   }
+#link:hover{
+    color: rgb(1, 2, 100);
+    
+   }
+
+   #colorF{
+       color: rgb(87, 87, 192);
+   }
+
+   #colorY{
+    color: rgb(255, 11, 11);
+}
+
+#colorW{
+    color: rgb(74, 130, 252);
+}
+#colorIns{
+    color: rgb(255, 123, 0);
+}
+
+#colorLink{
+    color: rgb(35, 90, 255);
+}
+
+#pages{
+    margin-left: 35px;
+}
+ 
+#follow{
+    font-size: 12px;
+}
+
+    
