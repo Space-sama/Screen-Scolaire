@@ -9,7 +9,7 @@
    <body>
    <br /><br /><br />
 <center><div class="jumbotron jumbotron-fluid">
-    <b><h3 style ="font-family: fangsong; font-size: 25px;" id="head" >Semaine Culturel</b></h3>
+    <b><h3 style ="font-family: fangsong; font-size: 25px;" id="head" >Semaine Culturelle</b></h3>
     <b><span style ="font-family: fangsong; font-size: 24px; color: white;">Partage des Coutumes & Traditions</span></b>
     </div></center>
         <?php

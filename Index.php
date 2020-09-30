@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/colors.css"/>
     
     <title>ISGA-Platform d'affichage</title>
-    <script src="https://www.vantajs.com/dist/vanta.birds.min.js"></script>
+    <!-- <script src="https://www.vantajs.com/dist/vanta.birds.min.js"></script> -->
 
   </head>
 
@@ -75,7 +75,7 @@
     <center><h1 id='bf'> Bienvenue a la platform d'affichage</h1></center>
       
       
-      <center><strong><h2 id='vp' >Votre plateform idéal pour les informations</h2></strong></center>
+      <center><strong><h2 id='vp' >Votre plateform idéale pour les informations</h2></strong></center>
       
     
     
@@ -85,13 +85,14 @@
 
 
 
-  <?php
+<?php
+
         include('includes/AnnoncesPourTous/Tournois.php');
         include('includes/AnnoncesPourTous/Visites.php');
         include('includes/AnnoncesPourTous/SemaineCul.php');
         include('includes/AnnoncesPourTous/Conferences.php');
 
-  ?>                                   
+?>                                   
       <br /><br /><br />
       <div class="container">
     <center><h1 id='isga'><span id='triangle'>🎓</span>ISGA - RABAT<span id='triangle'>🎓</span></h1></center>
